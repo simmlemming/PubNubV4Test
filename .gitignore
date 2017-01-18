@@ -1,0 +1,42 @@
+# eclipse files
+.classpath
+.project
+.settings/
+.springBeans
+
+# idea files
+*.iml
+*.ipr
+*.iws
+.idea/
+out/*
+
+# various folders we are never interested in
+app/src/main/java/org/pntest/pubnubv4/MyKeys.java
+app/libs-extra-javadoc/
+target/
+bin/
+*/test-output/
+# bloody osx crap
+.DS_Store
+#Cfp log
+cfp.out
+*.log
+/gen
+gen/*
+tmp/
+gen-*
+build/
+.gradle/
+**/.android_assets
+
+classes/*
+test_servers/*
+captures/
+reports/
+
+project.properties
+local.properties
+print_proguard_result.sh
+gradle.properties
+#fab

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.pntest.pubnubv4.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sub_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub A" />
+
+        <Button
+            android:id="@+id/sub_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub B" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/unsub_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unsub A" />
+
+        <Button
+            android:id="@+id/unsub_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unsub B" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Clear" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:background="#333333"
+            android:textColor="#2BD904" />
+    </ScrollView>
+
+</LinearLayout>
